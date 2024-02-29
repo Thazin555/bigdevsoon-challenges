@@ -9,7 +9,7 @@ const HomePage = () => {
         <Link to="/notifications">
           <p>Day 15 - Notifications</p>
         </Link>
-        <Link to="/images-preview">
+        <Link to="/">
           <p>Day 18 - Images Preview</p>
         </Link>
       </div>

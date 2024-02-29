@@ -6,9 +6,9 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/notifications" element={<Notifications />} />
-        <Route path="/images-preview" element={<ImagesPreview />} />
+        {/* <Route path="/" element={<HomePage />} />
+        <Route path="/notifications" element={<Notifications />} /> */}
+        <Route path="/" element={<ImagesPreview />} />
       </Routes>
     </div>
   );
