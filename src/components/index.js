@@ -2,3 +2,8 @@ export { default as NotiBox } from "./NotiBox";
 export { default as NotiButton } from "./NotiButton";
 export { default as NotiActiveBox } from "./NotiActiveBox";
 export { default as NotiHeading } from "./NotiHeading";
+export { default as ImagesContainer } from "./day18/ImagesContainer";
+export { default as ImagesHeader } from "./day18/ImagesHeader";
+export { default as GridImages } from "./day18/GridImages";
+export { default as ListImages } from "./day18/ListImages";
+export { default as FullImages } from "./day18/FullImages";

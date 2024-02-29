@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-button-prev::after {
+  @apply text-2xl;
+}
+
+.swiper-button-next::after {
+  @apply text-2xl;
+}
