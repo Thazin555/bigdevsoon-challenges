@@ -7,3 +7,6 @@ export { default as ImagesHeader } from "./day18/ImagesHeader";
 export { default as GridImages } from "./day18/GridImages";
 export { default as ListImages } from "./day18/ListImages";
 export { default as FullImages } from "./day18/FullImages";
+export { default as HostingContainer } from "./day45/HostingContainer";
+export { default as HostingHeading } from "./day45/HostingHeading";
+export { default as HostingCardGroup } from "./day45/HostingCardGroup";

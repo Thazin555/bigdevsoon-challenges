@@ -9,8 +9,11 @@ const HomePage = () => {
         <Link to="/notifications">
           <p>Day 15 - Notifications</p>
         </Link>
-        <Link to="/">
+        <Link to="/images-preview">
           <p>Day 18 - Images Preview</p>
+        </Link>
+        <Link to="/hosting-features">
+          <p>Day 45 - Hosting Features</p>
         </Link>
       </div>
     </div>

@@ -61,21 +61,27 @@ const ImagesHeader = () => {
         <h5>Images</h5>
         <div className="flex items-center">
           <button
-            className="active:bg-gray-600 active:rounded p-1  duration-100"
+            className={`p-1  duration-100 ${
+              view === "grid" && "bg-gray-600 rounded"
+            }`}
             onClick={() => setView("grid")}
           >
             <IoGridOutline />
           </button>
           <RxDividerVertical size={20} />
           <button
-            className="active:bg-gray-600 active:rounded p-1  duration-100"
+            className={`p-1 duration-100 ${
+              view === "list" && "bg-gray-600 rounded"
+            }`}
             onClick={() => setView("list")}
           >
             <IoIosList size={20} />
           </button>
           <RxDividerVertical size={20} />
           <button
-            className="active:bg-gray-600 active:rounded p-1  duration-100"
+            className={`p-1  duration-100 ${
+              view === "full" && "bg-gray-600 rounded"
+            }`}
             onClick={() => setView("full")}
           >
             <CgScreen size={16} />
