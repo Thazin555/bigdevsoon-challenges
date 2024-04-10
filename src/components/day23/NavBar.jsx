@@ -16,16 +16,32 @@ const NavBar = () => {
         GrowGreen
       </h1>
       <nav className="flex gap-10 font-serif">
-        <NavLink to="/home-page-ui" style={navLinkStyle}>
+        <NavLink
+          className="hover:scale-110 duration-300"
+          to="/home-page-ui"
+          style={navLinkStyle}
+        >
           Home
         </NavLink>
-        <NavLink to="/" style={navLinkStyle}>
+        <NavLink
+          className="hover:scale-110 duration-300"
+          to="/"
+          style={navLinkStyle}
+        >
           Catalog
         </NavLink>
-        <NavLink to="/" style={navLinkStyle}>
+        <NavLink
+          className="hover:scale-110 duration-300"
+          to="/"
+          style={navLinkStyle}
+        >
           Blog
         </NavLink>
-        <NavLink to="/" style={navLinkStyle}>
+        <NavLink
+          className="hover:scale-110 duration-300"
+          to="/"
+          style={navLinkStyle}
+        >
           Contact
         </NavLink>
       </nav>
