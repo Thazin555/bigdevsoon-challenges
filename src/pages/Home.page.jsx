@@ -26,6 +26,12 @@ const HomePage = () => {
         >
           <p>Day 45 - Hosting Features</p>
         </Link>
+        <Link
+          to="/home-page-ui"
+          className="border border-fuchsia-600 block p-2 rounded mb-3 font-semibold text-fuchsia-600 hover:bg-fuchsia-600 hover:text-white"
+        >
+          <p>Day 23 - Home Page</p>
+        </Link>
       </div>
     </div>
   );
