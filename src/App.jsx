@@ -1,11 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import {
+  FlightTicket,
   HomePage,
   HomePageUi,
   HostingFeatures,
   ImagesPreview,
   Notifications,
+  Testimonial,
 } from "./pages";
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
         <Route path="/images-preview" element={<ImagesPreview />} />
         <Route path="/hosting-features" element={<HostingFeatures />} />
         <Route path="/home-page-ui" element={<HomePageUi />} />
+        <Route path="/flight-ticket" element={<FlightTicket />} />
+        <Route path="/testimonial" element={<Testimonial />} />
       </Routes>
     </div>
   );

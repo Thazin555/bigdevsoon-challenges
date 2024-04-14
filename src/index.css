@@ -9,3 +9,19 @@
 .swiper-button-next::after {
   @apply text-2xl;
 }
+
+.slick-slider {
+  @apply w-[75%] mx-auto
+}
+
+.slick-prev::before {
+  @apply absolute -left-5
+}
+
+/* .slick-arrow::before{
+  @apply bg-blue-300 p-2 
+} */
+
+/* .slick-dots li.slick-active button::before{
+  @apply bg-yellow-200 w-2 h-2 rounded-full
+} */
