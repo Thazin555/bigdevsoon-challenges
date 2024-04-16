@@ -20,18 +20,28 @@ const HomePage = () => {
     },
     {
       id: 4,
+      url: "/download-app",
+      title: "Day 51 - Download App",
+    },
+    {
+      id: 5,
       url: "/home-page-ui",
       title: "Day 23 - Home Page",
     },
     {
-      id: 5,
+      id: 6,
       url: "/flight-ticket",
       title: "Day 61 - Flight Ticket",
     },
     {
-      id: 6,
+      id: 7,
       url: "/testimonial",
       title: "Day 62 - Testimonial",
+    },
+    {
+      id: 8,
+      url: "/document-manager",
+      title: "Day 64 - Document Manager",
     },
   ];
 
