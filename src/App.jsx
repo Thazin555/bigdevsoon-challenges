@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import {
   DocumentManager,
   DownloadApp,
+  Faq,
   FlightTicket,
   HomePage,
   HomePageUi,
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/hosting-features" element={<HostingFeatures />} />
         <Route path="/download-app" element={<DownloadApp />} />
         <Route path="/home-page-ui" element={<HomePageUi />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/flight-ticket" element={<FlightTicket />} />
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/document-manager" element={<DocumentManager />} />

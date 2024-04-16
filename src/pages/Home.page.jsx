@@ -15,31 +15,36 @@ const HomePage = () => {
     },
     {
       id: 3,
-      url: "/hosting-features",
-      title: "Day 45 - Hosting Features",
-    },
-    {
-      id: 4,
-      url: "/download-app",
-      title: "Day 51 - Download App",
-    },
-    {
-      id: 5,
       url: "/home-page-ui",
       title: "Day 23 - Home Page",
     },
     {
+      id: 4,
+      url: "/faq",
+      title: "Day 40 - FAQ",
+    },
+    {
+      id: 5,
+      url: "/hosting-features",
+      title: "Day 45 - Hosting Features",
+    },
+    {
       id: 6,
+      url: "/download-app",
+      title: "Day 51 - Download App",
+    },
+    {
+      id: 7,
       url: "/flight-ticket",
       title: "Day 61 - Flight Ticket",
     },
     {
-      id: 7,
+      id: 8,
       url: "/testimonial",
       title: "Day 62 - Testimonial",
     },
     {
-      id: 8,
+      id: 9,
       url: "/document-manager",
       title: "Day 64 - Document Manager",
     },

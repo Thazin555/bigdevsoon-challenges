@@ -7,3 +7,4 @@ export { default as FlightTicket } from "./day61/FlightTicket";
 export { default as Testimonial } from "./day62/Testimonial";
 export { default as DocumentManager } from "./day64/DocumentManager";
 export { default as DownloadApp } from "./day51/DownloadApp";
+export { default as Faq } from "./day40/Faq";
